@@ -1,0 +1,15 @@
+%a
+x=0:.1*pi:2*pi;
+y=sin(x);
+plot(x,y);
+%b
+title('sine function graph');
+xlabel('x'),ylabel('sin(x)');
+%c
+y1=sin(x);
+y2=cos(x);
+figure,plot(x,y1,x,y2);
+%d
+figure,plot(x,y1,'r--',x,y2,'g:');
+%e
+legend('sin(x)','cos(x)');
