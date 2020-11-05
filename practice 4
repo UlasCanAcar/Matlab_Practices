@@ -1,0 +1,8 @@
+
+a = input('enter starting point');
+b = input('enter end point oof the vector');
+c = input('enter the spacing of the vector');
+
+x = vector_func(a,b,c);
+
+disp(['The values of our vector is ',num2str(x)])
