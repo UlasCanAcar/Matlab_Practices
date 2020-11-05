@@ -1,0 +1,10 @@
+
+t=-5*pi:pi/10:5*pi;
+
+y1=square_poly(t);
+y2=ln_func(t);
+y3=sinc_func(t);
+
+3subplot(3,1,1),plot(t,y1);
+subplot(3,1,2),plot(t,y2);
+subplot(3,1,3),plot(t,y);
