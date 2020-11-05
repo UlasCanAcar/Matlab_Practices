@@ -1,0 +1,29 @@
+function Output = poly_func(x);
+%our first example function : A third order polynomial
+
+Output = 3*x.^3 + 5*x.^2 - 2*x + 1;
+
+
+function f = square_poly(t);
+%square polynomial function
+f= t.^2;
+
+function f= ln_func(t);
+%user defined in function
+
+f=log(t);
+
+function g= sinc_func(x);
+%user defined function
+g = sin(pi*x)./(pi*x);
+
+
+function x = vector_func(a,b,c)
+
+x = a:c:b
+
+function [mean_x,stdiv_x] = statistical_func(x)
+N = length(x);
+
+mean_x = sum(x)/N;
+stdiv_x =sqrt(sum(x - mean_x)/(N-1));
