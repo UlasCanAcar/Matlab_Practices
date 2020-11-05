@@ -1,0 +1,21 @@
+a1 = 2.14;
+a2 = 1.2;
+a3 = -0.5;
+
+b1 = 3+4i;
+b2 = 2;
+b3 = -pi;
+
+matrixa = [a1, a2, a3];
+
+sine_of_A = sin(matrixa);
+
+matrixa2 = matrixa + 5;
+
+matrixb = [b1, b2,b3];
+
+matrixSUM= matrixa + matrixb;
+
+matrixMUL= matrixa.*matrixb;
+
+sqrt_matrixa = sqrt(matrixa);
